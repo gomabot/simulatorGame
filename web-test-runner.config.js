@@ -13,7 +13,7 @@ if (!['dev', 'prod'].includes(mode)) {
 }
 
 // Uncomment for testing on Sauce Labs
-// Must run `npm i --save-dev @web/test-runner-saucelabs` and set
+// Must run `npm i --save-src @web/test-runner-saucelabs` and set
 // SAUCE_USERNAME and SAUCE_USERNAME environment variables
 // ===========
 // import {createSauceLabsLauncher} from '@web/test-runner-saucelabs';
@@ -33,7 +33,7 @@ if (!['dev', 'prod'].includes(mode)) {
 // );
 
 // Uncomment for testing on BrowserStack
-// Must run `npm i --save-dev @web/test-runner-browserstack` and set
+// Must run `npm i --save-src @web/test-runner-browserstack` and set
 // BROWSER_STACK_USERNAME and BROWSER_STACK_ACCESS_KEY environment variables
 // ===========
 // import {browserstackLauncher as createBrowserstackLauncher} from '@web/test-runner-browserstack';
